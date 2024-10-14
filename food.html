@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+
+     <!-- icon cdn -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ <style>
+    .col-md-4 img{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        border-radius: 50px;
+
+    }
+    h4{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .card img{
+        height: 450px;
+    }
+    h3{
+        text-align: center;
+        margin-top: 8%;
+    }
+    .col-md-3 img{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: space-evenly;
+          /* border-radius: 30%; */
+    }
+    .cont{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 7%;
+    }
+ </style>
+</head>
+<body>
+
+    <!-- headar start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div style="height: 80px;" class="container-fluid bg-danger text-center">
+        <a class="navbar-brand" href="#">Swigato<i class="bi bi-emoji-smile-upside-down"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul  class="navbar-nav ms-auto  mb-lg-0">
+            <li  class="nav-item">
+              <a class="nav-link active fs-4" aria-current="page" href="home.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active fs-4" aria-current="page" href="about.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active fs-4" aria-current="page" href="food.html">Food Menu</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active fs-4" aria-current="page" href="table .html">Table Booking</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active fs-4" aria-current="page" href="online.html">Online Delivery</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active fs-4" aria-current="page" href="blog.html">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active fs-4" aria-current="page" href="contact.html">Contact Us</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <h2><i class="bi bi-cart3"></i></h2>            
+        </div>
+      </div>
+    </nav>
+
+      <!-- header end -->
+       
+      <!-- section-1 start -->
+      <p style="margin: 3% 3%;" class="fs-1 text-center text-darks">Our Best Indian Foods</p>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://i.pinimg.com/564x/40/87/a4/4087a4dd7d240b154cea89738db03725.jpg" alt=""> 
+                <h3>Gujarati Thali</h3>    
+            </div>
+            <div class="col-md-4">
+                <img src="https://i.pinimg.com/564x/42/bf/8d/42bf8da952ca92bb5299bbe8f6eaf03b.jpg" alt="">
+                <h3>Punjabi Thali</h3>    
+
+            </div>
+            <div class="col-md-4">
+                <img src="https://i.pinimg.com/564x/2b/04/5d/2b045d361ca6d0b02bd8b10f0fc55b8f.jpg" alt="">
+                <h3>South Indian </h3>    
+
+            </div>
+            
+
+        </div>
+      </div>
+
+       <!-- section-1 end -->
+        <!-- section-2 start -->
+         
+        <p style="margin: 3% 3%;" class="fs-1 text-center text-darks">All TIme Favourite Foods</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/f5/9c/9a/f59c9a7f63c2cd4bd587f3de73f184a4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Chhole Bhature</h5>
+                          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                          <div class="cont">
+                            <a style="background-color: black; color: white;width: 50%; " href="#" class="btn btn-primary">Order Now</a>
+                            <i class="bi bi-suit-heart"></i>
+                            </div>  
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/fb/3a/90/fb3a904bca916b0964b6bf8c6edbccaa.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Chur Chur Naan</h5>
+                          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                          <div class="cont">
+                            <a style="background-color: black; color: white;width: 50%; " href="#" class="btn btn-primary">Order Now</a>
+                            <i class="bi bi-suit-heart"></i>
+                            </div>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/23/79/39/237939e5ab066a73fbdf710599d7b459.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Margerita Pizza</h5>
+                          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                           <div class="cont">
+                          <a style="background-color: black; color: white;width: 50%; " href="#" class="btn btn-primary">Order Now</a>
+                          <i class="bi bi-suit-heart"></i>
+                          </div>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/fb/6e/b0/fb6eb0ec0b3b4377578ce1ba35d1ddb6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Fafda Jalebi</h5>
+                          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                          <div class="cont">
+                            <a style="background-color: black; color: white;width: 50%; " href="#" class="btn btn-primary">Order Now</a>
+                            <i class="bi bi-suit-heart"></i>
+                            </div>                        </div>
+                      </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- section-2 end -->
+
+        <!-- section-3 start -->
+        <p style="margin: 3% 3%;" class="fs-1 text-center text-darks">Italian  Foods</p>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-3">
+                    <img src="https://i.pinimg.com/564x/6c/61/e9/6c61e919825237abfb4c844d6ddcd141.jpg" alt="">
+                    <h3>Italian Sendwitch</h3>  
+                      
+
+                </div>
+                <div class="col-md-3">
+                    <img src="https://i.pinimg.com/564x/e0/c5/b5/e0c5b5ee8e4c56894a8550da6c789d73.jpg" alt="">
+                    <h3>Italian Pizza</h3>    
+
+                </div>
+                
+                <div class="col-md-3">
+                    <img src="https://i.pinimg.com/736x/fd/0a/8f/fd0a8f6f5e405be6cf0b00265d9b9b43.jpg" alt="">
+                    <h3>Italian Burger Combo</h3>    
+
+                </div>
+                <div class="col-md-3">
+                    <img src="https://i.pinimg.com/736x/55/4d/30/554d30542cd5f8d9b4176b0650b98d70.jpg" alt="">
+                    <h3>Italian Pasta</h3>    
+
+                </div>
+            </div>
+        </div> 
+
+        <!-- section-3 End -->
+
+        <!-- section-4 start -->
+        <p style="margin: 3% 3%;" class="fs-1 text-center text-darks">Drinks</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <img class="img-fluid" src="https://i.pinimg.com/564x/fd/a9/ad/fda9ad56b9d62070fec105cd93693129.jpg" alt="">
+
+            </div>
+
+            <div class="col-md-3">
+              <img class="img-fluid" src="https://i.pinimg.com/564x/55/a1/41/55a141d75a43eace353e93b8e1697299.jpg" alt="">
+            </div>
+
+            <div class="col-md-3">
+              <img class="img-fluid" src="https://i.pinimg.com/564x/aa/30/f4/aa30f4c992ea0945145eaf357a074fa0.jpg" alt="">
+            </div>
+
+            <div class="col-md-3">
+              <img class="img-fluid" src="https://i.pinimg.com/564x/2a/96/b7/2a96b73085f5390902295fee8a8fee37.jpg" alt="">
+
+            </div>
+          </div>
+        </div> <br>
+ 
+
+        <!-- section-4 end -->
+
+        <footer style="margin-top: 3%;">
+          <div class="container-fluid">
+            <div style="background-color: black; height: 200px; color: white;" class="row text-center">
+             
+    
+                <div  class="col-md-4">
+                    <h3>Useful Links</h3>
+                    <a style="color: white;" href="">Home</a> <br>
+                    <a style="color: white;" href="">About</a> <br>
+                    <a style="color: white;" href="">Service</a> <br>
+                    <a style="color: white;" href="">Contact</a> <br>
+    
+                    
+                </div>
+    
+                <div class="col-md-4">
+                 <h3>Additional Links</h3>
+                 <a style="color: white;" href="">Privacy Policy</a> <br>
+                    <a style="color: white;" href="">Terms of Service</a> <br>
+                    <a style="color: white;" href="">FAQ</a> <br>
+                    <a style="color: white;" href="">Support    </a> <br>
+    
+                    
+                </div>
+    
+                <div class="col-md-4">
+                    <h3>Search</h3>
+                    <input style="text-align: center;" type="text" placeholder="search"> <button type="button" class="btn btn-outline-light">Search</button>
+    
+                    <h4>Follow us</h4>
+                    <div    class="ico">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter"></i>
+    
+    
+    
+                    </div>
+                    
+                </div>
+            </div>
+          </div>
+    
+        </footer>
+
+      
+    
+
+
+    <!-- bootstrap js csn -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+</body>
+</html>
